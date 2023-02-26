@@ -67,6 +67,5 @@ except KeyError:
 except vk_api.exceptions.ApiError:
     print('Указан неверный ID или токен!')
 
-
 except KeyboardInterrupt:
     print('\nGoodbye!')
